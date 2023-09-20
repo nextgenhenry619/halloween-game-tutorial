@@ -212,13 +212,14 @@
   
   @media (max-width: 500px) {
     .page-title {
-        color: #FF6D00;
+        color: #00ff2ab7;
         font-family: Creepy, serif;
         font-weight: normal;
         text-align: center;
         font-size: 4em;
-        position:absolute;
-        display: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
       }
       .game-info-container {
         grid-column: 1 / -1;
