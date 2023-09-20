@@ -29,13 +29,15 @@
     font-weight: normal;
     text-align: center;
     font-size: 5em;
+    margin-top: 20px;
 
   }
   
   .game-info-container {
     grid-column: 1 / -1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 20px;
   }
   
   .game-info {
@@ -43,6 +45,7 @@
     color: white;
     font-size: 4em;
     margin-top: 100px;
+    position: relative;
   }
   
   .game-container {
