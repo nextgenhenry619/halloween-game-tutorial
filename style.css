@@ -18,19 +18,18 @@
   }
   
   body {
-    margin: 0;
+    margin: 0 auto;
     background: radial-gradient(#9D5900, #3D2200);
     overflow: hidden;
-    width: 100vw;
-    height: 100vh;
   }
   
   .page-title {
-    color: rgba(0, 128, 0, 0.842);
+    color: rgba(0, 128, 0, 0.473);
     font-family: Creepy, serif;
     font-weight: normal;
     text-align: center;
     font-size: 5em;
+
   }
   
   .game-info-container {
@@ -43,17 +42,17 @@
     font-family: Lunacy, serif;
     color: white;
     font-size: 4em;
+    margin-top: 100px;
   }
   
   .game-container {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-60%,-50%);
+    transform: translate(-50%,-50%);
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
-    margin: 50px;
     justify-content: center;
     perspective: 500px;
   }
@@ -226,7 +225,7 @@
     .game-container{
         margin-top: -20px;
         display: column;
-        grid-gap: 5px;
+        grid-gap: 0px;
         justify-content: center;
         align-items: center;
         justify-items: center;
@@ -236,7 +235,7 @@
     .card {
         position: relative;
         height: 150px;
-        width: 125px;
+        width: 100px;
       }
     .game-info-container {
      
