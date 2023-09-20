@@ -235,8 +235,8 @@
     }
     .card {
         position: relative;
-        height: 170px;
-        width: 80px;
+        height: 150px;
+        width: 125px;
       }
     .game-info-container {
      
@@ -244,6 +244,17 @@
       gap: 40px;
       
     
+    }
+    .cob-web {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      transition: width 100ms ease-in-out, height 100ms ease-in-out;
+    }
+    
+    .card-face:hover .cob-web {
+      width: 50px;
+      height: 50px;
     }
     .game-info {
         font-size: 2.5rem;
