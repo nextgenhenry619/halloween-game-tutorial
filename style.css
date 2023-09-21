@@ -227,7 +227,7 @@
         justify-content: space-between;
       }
     .game-container{
-        margin-top: -20px;
+       
         display: column;
         grid-gap: 0px;
         justify-content: center;
